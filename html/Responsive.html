@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>Responsive Web Page</title>
+    <style>
+        div.middle {
+            display: block;
+            float: left;
+            width: 100%;
+            background-color: #f6f6f6;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        #link:hover {
+            background-color: gray;
+            color: black;
+        }
+
+
+        div.leftcontent {
+            float: left;
+            width: 20%;
+            text-align: center;
+            background-color: #f6f6f6;
+            display: block;
+            height: 200px;
+        }
+
+            div.leftcontent a {
+                display: block;
+                padding: 22px;
+                color: black;
+            }
+
+        div.middle1 {
+            float: left;
+            width: 40%;
+            text-align: left;
+            background-color: #f6f6f6;
+            display: block;
+            height: 200px;
+        }
+
+        div.middle2 {
+            float: left;
+            width: 40%;
+            text-align: left;
+            background-color: #f6f6f6;
+            display: block;
+            height: 200px;
+        }
+
+        div.header {
+            background-color: white;
+            text-align: center;
+            padding: 5px;
+            background-color: #f6f6f6;
+        }
+
+        div.middle3 {
+            width: 33%;
+            float: left;
+            background-color: #f6f6f6;
+            display: block;
+            height: 160px;
+        }
+
+        div.middle4 {
+            width: 33%;
+            float: left;
+            background-color: #f6f6f6;
+            display: block;
+            height: 160px;
+        }
+
+        div.middle5 {
+            width: 33%;
+            float: left;
+            background-color: #f6f6f6;
+            display: block;
+            height: 160px;
+        }
+
+        div.footer1 {
+            text-align: center;
+            background-color: gray;
+            color: white;
+            float: left;
+            width: 50%;
+        }
+
+        div.footer2 {
+            text-align: center;
+            background-color: #907272;
+            color: white;
+            float: left;
+            width: 50%;
+        }
+
+        @media screen and (max-width:800px) {
+            div.leftcontent, div.middle1, div.middle2, div.middle3, div.middle4, div.middle5, div.footer {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="header">
+            <h1>Welcome to the Blog</h1>
+        </div>
+
+        <div>
+            <div class="middle">
+                <div class="leftcontent">
+                    <a id="link" href="#" style="background-color:gray">HOME</a>
+                    <a id="link" href="https://www.facebook.com/" target="_blank">FACEBOOK</a>
+                    <a id="link" href="#">INSTAGRAM</a>
+
+                </div>
+
+                <div class="middle1">
+                    <h2>Discovery</h2>
+                    <p>Discovery Channel (known as The Discovery Channel from 1985 to 1995, and often referred to as simply Discovery) is an American pay television network and flagship channel owned by Discovery, Inc., a publicly traded company run by CEO David Zaslav. As of June 2012</p>
+
+                </div>
+                <div class="middle2">
+                    <h2>Informatiom</h2>
+                    <p>Discovery Channel is the third most widely distributed subscription channel in the United States, behind TBS and The Weather Channel. it is available in 409 million households worldwide, through its U.S. flagship channel and its various owned or licensed television channels internationally.</p>
+
+                </div>
+            </div>
+            <div class="middle">
+                <div class="middle3">
+                    <h2>Content</h2>
+                    <p>Discovery Channel Radio was a radio network whose programming consisted of audio versions of popular programs from the Discovery Communications family of television channels.</p>
+                </div>
+                <div class="middle4">
+                    <h2>Content</h2>
+                    <p> Sirius Satellite Radio dropped Discovery Radio from its lineup on February 21, 2007; it was also carried on both of Canada's major satellite radio services.</p>
+                </div>
+                <div class="middle5">
+                    <h2>Content</h2>
+                    <p>Man vs. Wild the show is hosted by Bear Grylls.It's the fabulous show for mankind.They visit with their camera and crew team</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+            <div class="footer1">
+                <p>Thanks!!!</p>
+            </div>
+            <div class="footer2"><p>Do the best at Present</p></div>
+        </div>
+
+
+    </div>
+</body>
+</html>
